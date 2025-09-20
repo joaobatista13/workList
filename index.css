@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(172, 172, 243);
+}
+
+header{
+    color: rgb(255, 210, 114);
+    background-color: blue;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1325px;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: row;
+   width: 850px;
+   height: 820px;
+   padding: 5px;
+   margin: 50px 50px;
+}
+
+.item{
+    width: 340px;
+    height: 4px;
+    margin: 5px;
+}
+
+ #tabe{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+ }
+
+#concluida{
+    background-color: rgb(150, 236, 20);
+    width: 250px;
+    height: 915px;
+    border-radius: 2rem;
+}
+
+#textTa1{
+    background-color: rgb(215, 255, 142);
+    text-decoration: line-through;
+}
+
+#tarefa1{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 5px;
+    text-shadow: 2%;
+}
+
+#c{
+    background-color: rgb(153, 255, 0);
+    color: rgb(165, 153, 153);
+    text-align: center;
+}
+
+#fazer{
+    background-color: rgb(255, 251, 36);
+    width: 250px;
+    height: 915px;
+    border-radius: 2rem;
+}
+
+#textTa2{
+    background-color: rgb(253, 255, 156);
+    text-decoration-color: black;
+}
+
+#tarefa2{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 5px;
+    text-shadow: 2%;
+}
+
+#f{
+    background-color: rgb(238, 255, 0);
+    color: rgb(165, 153, 153);
+    text-align: center;
+}
+
+#pendente{
+    background-color: rgb(255, 17, 17);
+    width: 250px;
+    height: 915px;
+    border-radius: 2rem;
+}
+
+#textTa3{
+    background-color: rgb(177, 165, 152);
+}
+
+#tarefa3{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1px;
+    margin: 5px;
+    text-shadow: 2%;
+}
+
+#p{
+    background-color: rgb(255, 0, 0);
+    color: rgb(165, 153, 153);
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
