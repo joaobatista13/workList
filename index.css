@@ -1,4 +1,10 @@
 body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: rgb(172, 172, 243);
 }
 
@@ -8,10 +14,23 @@ header{
     text-align: center;
     font-size: 35px;
     font-family: 'Courier New', Courier, monospace;
-    width: 1325px;
-    height: 75px;
+    width: 100%;
+    height: 50px;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+header > h3{
+    color: rgb(255, 210, 114);
+    font-style: italic;
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -32,11 +51,11 @@ header{
     margin: 5px;
 }
 
- #tabe{
+#tabe{
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 30px;
- }
+    font-style: arial;
+}
 
 #concluida{
     background-color: rgb(150, 236, 20);
@@ -98,7 +117,7 @@ header{
 }
 
 #textTa3{
-    background-color: rgb(177, 165, 152);
+    background-color: rgb(247, 123, 123);
 }
 
 #tarefa3{
